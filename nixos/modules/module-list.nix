@@ -563,6 +563,7 @@
   ./services/web-servers/varnish/default.nix
   ./services/web-servers/winstone.nix
   ./services/web-servers/zope2.nix
+  ./services/custom/go-service-example.nix
   ./services/x11/colord.nix
   ./services/x11/compton.nix
   ./services/x11/unclutter.nix

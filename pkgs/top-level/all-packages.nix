@@ -18116,4 +18116,6 @@ with pkgs;
   hy = callPackage ../development/interpreters/hy {};
 
   ghc-standalone-archive = callPackage ../os-specific/darwin/ghc-standalone-archive { inherit (darwin) cctools; };
+
+  go-service-example = callPackage ../custom/go-service-example {};
 }
