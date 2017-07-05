@@ -33,8 +33,7 @@ in {
       after = [ "network.target" ];
       script = ''
          ${pkgs.go-service-example}/bin/nixos-go-service-example2 -host ${cfg.host} -data-dir ${cfg.dataDirectory}
-      };
-        '';
+      '';
     };
 
   };
